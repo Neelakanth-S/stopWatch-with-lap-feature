@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Stopwatch Timer application</title>
+    -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="watch">
+        <div class="outer-circle">
+          <div class="inner-circle">
+            <span class="text min">0 :</span>
+            <span class="text sec">&nbsp; 0 :</span>
+            <span class="text msec">&nbsp;0</span>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <button class="button play">play</button>
+          <button class="button reset hidden">reset</button>
+          <button class="button lap hidden">lap</button>
+        </div>
+      </div>
+      <ul class="laps">
+        <button class="lap-clear-btn hidden">Clear All</button>
+      </ul>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
